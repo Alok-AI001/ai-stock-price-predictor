@@ -14,7 +14,7 @@ charts, web server) is implemented with the standard library.
 > extremely noisy. Expect directional accuracy near 50% and compare every model with the
 > naive baseline ("tomorrow = today") that the tool prints for you.
 
-## Quick start
+## Quick start()
 
 ```bash
 cd ai-stock-price-predictor
