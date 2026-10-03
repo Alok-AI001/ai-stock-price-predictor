@@ -14,7 +14,7 @@ charts, web server) is implemented with the standard library.
 > extremely noisy. Expect directional accuracy near 50% and compare every model with the
 > naive baseline ("tomorrow = today") that the tool prints for you.
 
-## Quick start()
+## Quick start
 
 ```bash
 cd ai-stock-price-predictor
@@ -75,7 +75,6 @@ rebuilt analytically from today's close, so no future information leaks in.
 **Features** (all computed only from data available at the close of day *t*):
 price/SMA ratios (10, 20, 50), price/EMA ratios (12, 26), RSI(14), MACD line, signal and
 histogram (normalised by price), Bollinger %B and bandwidth, ATR(14) as % of price,
-1/3/5/10-day momentum, three lagged returns, volume ratio, and the daily high-low range.
 
 **Models**
 
@@ -151,5 +150,3 @@ print(result["next_day"], result["backtest"]["stats"]["alpha_pct"])
 - No transaction costs, slippage, taxes or position sizing in the backtest.
 - Features are price/volume only (no fundamentals or news).
 - Pure-Python models favour clarity over speed; a 5-year run takes about a second.
-
-MADE WITH AD
