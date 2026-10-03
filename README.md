@@ -151,3 +151,5 @@ print(result["next_day"], result["backtest"]["stats"]["alpha_pct"])
 - No transaction costs, slippage, taxes or position sizing in the backtest.
 - Features are price/volume only (no fundamentals or news).
 - Pure-Python models favour clarity over speed; a 5-year run takes about a second.
+
+MADE WITH AD
