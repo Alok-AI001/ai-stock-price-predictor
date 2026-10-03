@@ -1,0 +1,2 @@
+# No third-party packages are required. The project runs on the Python
+# standard library alone (Python 3.8+).
