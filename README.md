@@ -75,6 +75,7 @@ rebuilt analytically from today's close, so no future information leaks in.
 **Features** (all computed only from data available at the close of day *t*):
 price/SMA ratios (10, 20, 50), price/EMA ratios (12, 26), RSI(14), MACD line, signal and
 histogram (normalised by price), Bollinger %B and bandwidth, ATR(14) as % of price,
+1/3/5/10-day momentum, three lagged returns, volume ratio, and the daily high-low range.
 
 **Models**
 
